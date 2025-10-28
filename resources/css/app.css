@@ -366,8 +366,81 @@ header#main-header {
 .top-header {
     justify-content: center;
 }
-.d-flex.top-header ul.list-group {
+.top-header ul.list-group {
     margin: 0 !important;
 }
-
+.you-job-image {
+    position: inherit;
+    width: 100%;
+}
+.you-job-image img {
+    height: 300px;
+    margin-bottom: 4rem;
+}
+section#your-job-main {
+    padding-top: 50px;
+}
+ul.your-job-list span.green-text {
+    font-size: 40px;
+    line-height: 35px;
+}
+.start-box {
+    margin: 10px 0;
+    height: auto;
+}
+section#built-main {
+    background-size: 100%;
+    background-position: top center;
+    padding: 300px 0 35px;
+}
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.row.g-3.gallery {
+    margin-top: 2.5rem;
+}
+.section-spacing {
+    padding: 50px 0 60px;
+}
+section#localcta-main {
+    padding-top: 80px;
+}
+.storage-box {
+    height: auto;
+    margin: 20px 0 0;
+}
+section#simple-start-main {
+    border-top: 1px solid #EFEFEF;
+    margin-top: 20px;
+}
+.web-button {
+    padding: 10px 20px;
+}
+header ul.navbar-nav {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    border-top: 1px solid #EFEFEF;
+    padding: 0 10px;
+    display: block;
+}
+header ul.navbar-nav li.nav-item {
+    border-bottom: 1px solid #EFEFEF;
+}
+header ul.navbar-nav li.nav-item:last-child {
+    border: none;
+}
+button.navbar-toggler {
+    border: none;
+    padding: 0;
+    outline: none !important;
+    box-shadow: none !important;
+}
+div#lightboxCarousel img {
+    height: auto;
+}
 }
