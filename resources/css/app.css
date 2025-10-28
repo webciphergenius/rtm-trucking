@@ -80,11 +80,13 @@ h3 {
     background: url(/images/button-yellow.png) no-repeat;
     color: #000000;
     border-color: #ffffff;
+    background-size: cover;
 }
 .blue-button {
     background: url(/images/button-blue.png) no-repeat;
     color: #000000;
     border-color: #ffffff;
+    background-size: cover;
 }
 .section-spacing {
     padding: 60px 0;
@@ -332,4 +334,40 @@ footer#main-footer {
     background-color: #047374;
     color: #fff;
     box-shadow: 0 0 0 0.2rem rgba(5, 139, 140, 0.25);
+}
+@media only screen and (max-width: 768px) {
+.col-md-4:nth-child(2) .start-box:after, .col-md-4:nth-child(2) .start-box:before {
+    display: none;
+}
+.footer-buttons {
+    flex-direction: column;
+}
+.yellow-button {
+    margin: 0 !important;
+}
+.contact-info {
+    gap: 20px;
+}
+.g-main iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    position: initial;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 3rem;
+}
+h2.section-head {
+    font-size: 28px;
+}
+header#main-header {
+    position: inherit;
+}
+.top-header {
+    justify-content: center;
+}
+.d-flex.top-header ul.list-group {
+    margin: 0 !important;
+}
+
 }
