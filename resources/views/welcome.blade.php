@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav align-items-end ms-auto gap-2 text-uppercase">
                 <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">Home 5</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
