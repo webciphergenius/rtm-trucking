@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RTM Trucking</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="../css/app.css">
 </head>
 <body>
 <header id="main-header" class="web-header">
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav align-items-end ms-auto gap-2 text-uppercase">
                 <li class="nav-item">
-                <a class="nav-link" href="#">Home 5</a>
+                <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
