@@ -336,38 +336,77 @@
                 <div class="col-md-6">
                     <div class="contact-data">
                         <h2 class="section-head top-border">Ready When You Are</h2>
-                        <form action="#" method="post" id="contactForm" class="contact-form">
+                        @if(session('success'))
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                {{ session('success') }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        @endif
+
+                        @if(session('error'))
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                {{ session('error') }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        @endif
+
+                        <form action="{{ route('contact.store') }}" method="post" id="contactForm" class="contact-form">
+                            @csrf
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                <input type="text" placeholder="Name" class="form-control">
+                                    <input type="text" name="name" placeholder="Name *" class="form-control @error('name') is-invalid @enderror" value="{{ old('name') }}" required>
+                                    @error('name')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-md-6">
-                                <input type="text" placeholder="Company" class="form-control">
-                                </div>
-
-                                <div class="col-md-6">
-                                <input type="email" placeholder="Email" class="form-control">
-                                </div>
-                                <div class="col-md-6">
-                                <input type="tel" placeholder="Phone" class="form-control">
-                                </div>
-
-                                <div class="col-md-6">
-                                <input type="text" placeholder="Delivery Address" class="form-control">
-                                </div>
-                                <div class="col-md-6">
-                                <input type="text" placeholder="Container Need" class="form-control">
+                                    <input type="text" name="company" placeholder="Company" class="form-control @error('company') is-invalid @enderror" value="{{ old('company') }}">
+                                    @error('company')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                    @enderror
                                 </div>
 
                                 <div class="col-md-6">
-                                <input type="text" placeholder="Duration" class="form-control">
+                                    <input type="email" name="email" placeholder="Email *" class="form-control @error('email') is-invalid @enderror" value="{{ old('email') }}" required>
+                                    @error('email')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                    @enderror
                                 </div>
                                 <div class="col-md-6">
-                                <input type="text" placeholder="Notes" class="form-control">
+                                    <input type="tel" name="phone" placeholder="Phone *" class="form-control @error('phone') is-invalid @enderror" value="{{ old('phone') }}" required>
+                                    @error('phone')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                    @enderror
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="text" name="delivery_address" placeholder="Delivery Address *" class="form-control @error('delivery_address') is-invalid @enderror" value="{{ old('delivery_address') }}" required>
+                                    @error('delivery_address')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="container_need" placeholder="Container Need *" class="form-control @error('container_need') is-invalid @enderror" value="{{ old('container_need') }}" required>
+                                    @error('container_need')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                    @enderror
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="text" name="duration" placeholder="Duration *" class="form-control @error('duration') is-invalid @enderror" value="{{ old('duration') }}" required>
+                                    @error('duration')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                    @enderror
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="notes" placeholder="Notes" class="form-control @error('notes') is-invalid @enderror" value="{{ old('notes') }}">
+                                    @error('notes')
+                                        <div class="invalid-feedback">{{ $message }}</div>
+                                    @enderror
                                 </div>
 
                                 <div class="col-12">
-                                <button type="submit" class="btn btn-submit">SUBMIT</button>
+                                    <button type="submit" class="btn btn-submit">SUBMIT</button>
                                 </div>
                             </div>
                         </form>
