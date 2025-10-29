@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-sm">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="{{ asset('images/web-logo.png') }}" alt="rtm-logo" height="50">
+                <img src="https://i.ibb.co/35Hy4rdC/web-logo.png" alt="rtm-logo" height="50">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -60,8 +60,7 @@
     <section id="hero-main" class="hero-section position-relative overflow-hidden">
         <!-- Background Video -->
         <video autoplay muted loop playsinline class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" id="heroVideo">
-            <source src="{{ asset('videos/hero-bg.mp4') }}" type="video/mp4">
-            Your browser does not support the video tag.
+            <source src="https://contemporarymediagrp.com/wp-content/uploads/2025/10/hero-video.mp4" type="video/mp4">
         </video>
 
         <!-- Overlay (optional for readability) -->
@@ -69,21 +68,23 @@
 
         <!-- Hero Content -->
         <div class="container position-relative z-3 text-start text-white d-flex flex-column justify-content-center" style="min-height: 100vh;">
-            <h1>Local Delivery. On-Site Storage. Since 2005.</h1>
-            <p>Dependable storage containers for small items — with the convenience of local delivery and the protection of temperature control.</p>
-            <div class="inline-web-buttons">
-            <a href="#" class="web-button dark-button text-uppercase">Get A Quote</a>
-            <a href="#" class="web-button light-button text-uppercase ms-2">Call Now</a>
+            <div class="hero-content">
+                <h1>Local Delivery. On-Site Storage. Since 2005.</h1>
+                <p>Dependable storage containers for small items — with the convenience of local delivery and the protection of temperature control.</p>
+                <div class="inline-web-buttons">
+                    <a href="#" class="web-button dark-button text-uppercase">Get A Quote</a>
+                    <a href="#" class="web-button light-button text-uppercase ms-2">Call Now</a>
+                </div>
             </div>
         </div>
     </section>
     <section id="storage-main" class="storage-sec section-spacing">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <h2 class="section-head top-border">Storage Containers <span style="color: #088C8A;">+</span> Local Delivery</h2>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <p>We don't just drop off a box and drive away — we deliver <b>ready-to-use, secure, and temperature-controlled containers</b> designed for small items and short-term storage needs. Whether it's overflow inventory, seasonal supplies, or tools for an upcoming job, we make sure your goods stay protected, organized, and accessible right where you need them.</p>
                 </div>
             </div>
@@ -210,6 +211,71 @@
                     </div>
                 </div>
                 <div class="col-md-6"></div>
+            </div>
+        </div>
+    </section>
+    <section id="customer-main" class="customer-sec section-spacing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2 class="section-head top-border">Customer Feedback</h2>
+                </div>
+                <div class="col-md-7">
+                    <p>“We've used RTM for multiple construction projects. Their team is dependable, and their storage containers are spotless and secure. Highly recommend.”</p>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial Item -->
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="testimonial-head">
+                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
+                                <h6>Bob Graham
+                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block; margin-top: -5px;">
+                                </h6>
+                            </div>
+                            <p>“The temperature-controlled containers were a lifesaver for our equipment. RTM handled everything from delivery to pickup without a hitch.”</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="testimonial-head">
+                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
+                                <h6>Bob Graham
+                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block; margin-top: -5px;">
+                                </h6>
+                            </div>
+                            <p>“The temperature-controlled containers were a lifesaver for our equipment. RTM handled everything from delivery to pickup without a hitch.”</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="testimonial-head">
+                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
+                                <h6>Bob Graham
+                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block; margin-top: -5px;">
+                                </h6>
+                            </div>
+                            <p>“The temperature-controlled containers were a lifesaver for our equipment. RTM handled everything from delivery to pickup without a hitch.”</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="testimonial-head">
+                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
+                                <h6>Bob Graham
+                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block; margin-top: -5px;">
+                                </h6>
+                            </div>
+                            <p>“The temperature-controlled containers were a lifesaver for our equipment. RTM handled everything from delivery to pickup without a hitch.”</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </section>
@@ -394,12 +460,12 @@
                             </div>
                             <div class="col-md-4 d-flex align-items-start gap-2">
                                 <ul class="inline-social">
-                                    <li><a href="#"></a><img src="{{ asset('images/facebook-icon.png') }}" alt="Facebook"></li>
-                                    <li><a href="#"></a><img src="{{ asset('images/youtube-icon.png') }}" alt="YouTube"></li>
-                                    <li><a href="#"></a><img src="{{ asset('images/instagram-icon.png') }}" alt="Instagram"></li>
-                                    <li><a href="#"></a><img src="{{ asset('images/tiktok-icon.png') }}" alt="TikTok"></li>
-                                    <li><a href="#"></a><img src="{{ asset('images/linkedin-icon.png') }}" alt="LinkedIn"></li>
-                                    <li><a href="#"></a><img src="{{ asset('images/twitter-icon.png') }}" alt="Twitter"></li>
+                                    <li><a href="#"></a><img src="https://i.ibb.co/vCVG8rQ3/fb-icon.png" alt="Facebook"></li>
+                                    <li><a href="#"></a><img src="https://i.ibb.co/MksHp8VQ/youtube-icon.png" alt="YouTube"></li>
+                                    <li><a href="#"></a><img src="https://i.ibb.co/RT9M1DZN/insta-icon.png" alt="Instagram"></li>
+                                    <li><a href="#"></a><img src="https://i.ibb.co/sJmMynv1/tiktok-icon.png" alt="TikTok"></li>
+                                    <li><a href="#"></a><img src="https://i.ibb.co/fYrh5b8G/linkedin-icon.png" alt="LinkedIn"></li>
+                                    <li><a href="#"></a><img src="https://i.ibb.co/VcmS9173/twitter-icon.png" alt="Twitter"></li>
                                 </ul>
                             </div>
                         </div>
@@ -417,5 +483,34 @@
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     @vite(['resources/js/app.js'])
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    grabCursor: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+      1200: {
+        slidesPerView: 4,
+      },
+    },
+  });
+</script>
 </body>
 </html>
