@@ -497,60 +497,52 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <script>
-export default {
-  mounted() {
-    // ✅ Smooth Scroll for anchor links
-    const headerOffset = 120; // adjust header height if needed
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', (e) => {
-        e.preventDefault();
-        const target = document.querySelector(anchor.getAttribute('href'));
-        if (!target) return;
+document.addEventListener("DOMContentLoaded", () => {
+  // ✅ Smooth Scroll for anchor links
+  const headerOffset = 120; // adjust header height if needed
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.querySelector(anchor.getAttribute('href'));
+      if (!target) return;
 
-        const elementPosition = target.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.scrollY - headerOffset;
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: "smooth"
-        });
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
       });
     });
+  });
 
-    // ✅ Swiper slider initialization
-    if (typeof Swiper !== 'undefined') {
-      new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        loop: true,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-        grabCursor: true,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          768: {
-            slidesPerView: 2,
-          },
-          992: {
-            slidesPerView: 3,
-          },
-          1200: {
-            slidesPerView: 4,
-          },
-        },
-      });
-    } else {
-      console.warn("⚠️ Swiper is not loaded — please include Swiper JS before using this mixin.");
-    }
+  // ✅ Swiper slider initialization
+  if (typeof Swiper !== 'undefined') {
+    new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      grabCursor: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        768: { slidesPerView: 2 },
+        992: { slidesPerView: 3 },
+        1200: { slidesPerView: 4 },
+      },
+    });
+  } else {
+    console.warn("⚠️ Swiper not loaded — include Swiper JS before this script.");
   }
-};
-
+});
 </script>
+
 
 </body>
 </html>
