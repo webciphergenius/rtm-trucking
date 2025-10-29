@@ -435,6 +435,16 @@ ul.inline-social li {
     opacity: 1;
     visibility: visible;
 }
+.contact-info p img {
+    margin-top: 2px;
+    height: 16px;
+    width: 16px;
+}
+.contact-info p {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+}
 @media only screen and (max-width: 768px) {
 .col-md-4:nth-child(2) .start-box:after, .col-md-4:nth-child(2) .start-box:before {
     display: none;
@@ -551,7 +561,7 @@ ul.inline-social {
     text-align: left;
 }
 section#contact {
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
 }
 .hero-content {
     left: 3%;
@@ -575,5 +585,11 @@ h1 {
 }
 .swiper-wrappermain {
     flex-direction: column;
+}
+#backToTop {
+    bottom: 15px !important;
+    right: 15px !important;
+    width: 40px !important;
+    height: 40px !important;
 }
 }

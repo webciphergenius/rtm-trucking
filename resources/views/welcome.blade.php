@@ -427,14 +427,8 @@
                                         <div class="invalid-feedback">{{ $message }}</div>
                                     @enderror
                                 </div>
-
                                 <div class="col-md-6">
-                                    <select name="duration" class="form-control @error('duration') is-invalid @enderror" required>
-                                        <option value="" disabled selected>Duration *</option>
-                                        <option value="Hours">Hours</option>
-                                        <option value="Days">Days</option>
-                                        <option value="Weeks">Weeks</option>
-                                    </select>
+                                    <input type="text" name="duration" placeholder="Duration *" class="form-control @error('duration') is-invalid @enderror" value="{{ old('duration') }}" required>
                                     @error('duration')
                                         <div class="invalid-feedback">{{ $message }}</div>
                                     @enderror
@@ -463,7 +457,8 @@
                             <div class="col-md-4 d-flex align-items-start gap-2">
                                 <div>
                                     <h5 class="fw-bold mb-1">Numbers</h5>
-                                    <p class="mb-0"><img src="https://i.ibb.co/mn8Ds3m/call-icon.png"> 973-442-1577<br> <img src="https://i.ibb.co/hJK9tYZ4/phone-icon.png"> 973-442-1477</p>
+                                    <p class="mb-0"><img src="https://i.ibb.co/mn8Ds3m/call-icon.png"> 973-442-1577</p>
+                                    <p class="mb-0"><img src="https://i.ibb.co/hJK9tYZ4/phone-icon.png"> 973-442-1477</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
