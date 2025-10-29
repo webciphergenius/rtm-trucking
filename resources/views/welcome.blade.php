@@ -6,7 +6,6 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>RTM Trucking</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     @vite(['resources/css/app.css'])
 </head>
 <body>
@@ -225,10 +224,10 @@
                     <p>“We've used RTM for multiple construction projects. Their team is dependable, and their storage containers are spotless and secure. Highly recommend.”</p>
                 </div>
             </div>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
+            <div class="swiper-main mySwipers">
+                <div class="swiper-wrappermain">
                     <!-- Testimonial Item -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide-block">
                         <div class="testimonial">
                             <div class="testimonial-head">
                                 <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
@@ -515,7 +514,6 @@
     </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     @vite(['resources/js/app.js'])
 
 <script>
@@ -536,30 +534,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   });
-
-const swiper = new Swiper(".swiper", {
-  centeredSlides: true,
-  loop: true,
-  centeredSlides: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  },
-  breakpoints: {
-    768: {
-      slidesPerView: 1,
-      spaceBetween: 20
-    },
-    1024: {
-      slidesPerView: 3,
-      spaceBetween: 30
-    },
-    1280: {
-      slidesPerView: 4,
-      spaceBetween: 30
-    }
-  }
-});
 });
 </script>
 </body>

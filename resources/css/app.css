@@ -381,11 +381,15 @@ section#testimonials {
 section#testimonials .row {
     color: #fff;
 }
-.swiper-wrapper .swiper-slide {
-    background: #fff;
+.swiper-wrappermain {
+    display: flex;
+    gap: 20px;
+}
+.swiper-slide-block {
+    background: #ffffff;
     padding: 20px;
     border-radius: 12px;
-    height: 250px;
+    height: 280px;
 }
 .testimonial-head {
     display: flex;
@@ -514,6 +518,9 @@ button.navbar-toggler {
 }
 div#lightboxCarousel img {
     height: auto;
+}
+.swiper-wrapper {
+    flex-direction: column;
 }
 ul.inline-social {
     text-align: left;
