@@ -14,8 +14,8 @@
         <div class="d-flex top-header">
             <ul class="list-group list-group-horizontal ms-auto list-unstyled gap-2">
                 <li class="head-buttons"><a class="nav-link web-button sp-bordered-button text-uppercase" href="#">DOT #00000 |  MT #0000</a></li>
-                <li class="head-buttons"><a class="nav-link web-button blue-button text-uppercase" href="#">CFR Direct <img src="https://i.ibb.co/HL5ct6wW/arrow-button.png"></a></li>
-                <li class="head-buttons"><a class="nav-link web-button yellow-button text-uppercase" href="#">Go FreightMate <img src="https://i.ibb.co/HL5ct6wW/arrow-button.png"></a></li>
+                <li class="head-buttons"><a class="nav-link web-button blue-button text-uppercase" href="https://cfrdirect.com" target="_blank">CFR Direct <img src="https://i.ibb.co/HL5ct6wW/arrow-button.png"></a></li>
+                <li class="head-buttons"><a class="nav-link web-button yellow-button text-uppercase" href="https://gofreightmate.com" target="_blank">Go FreightMate <img src="https://i.ibb.co/HL5ct6wW/arrow-button.png"></a></li>
             </ul>
         </div>
     </div>
@@ -72,7 +72,7 @@
                 <h1>Local Delivery. On-Site Storage. Since 2005.</h1>
                 <p>Dependable storage containers for small items — with the convenience of local delivery and the protection of temperature control.</p>
                 <div class="inline-web-buttons">
-                    <a href="#" class="web-button dark-button text-uppercase">Get A Quote</a>
+                    <a href="#contact" class="web-button dark-button text-uppercase">Get A Quote</a>
                     <a href="#" class="web-button light-button text-uppercase ms-2">Call Now</a>
                 </div>
             </div>
@@ -192,11 +192,11 @@
                     <div class="start-box">
                         <span class="start-box-number">3</span>
                         <h3>You Relax</h3>
-                        <p>When you’re done, we handle the pickup — no hidden fees, no surprises.</p>
+                        <p>When you're done, we handle the pickup — no hidden fees, no surprises.</p>
                     </div>
                 </div>
             </div>
-            <a href="#" class="web-button dark-button text-uppercase">Get A Quote</a>
+            <a href="#contact" class="web-button dark-button text-uppercase">Get A Quote</a>
         </div>
     </section>
     <section id="about" class="built-sec section-spacing">
