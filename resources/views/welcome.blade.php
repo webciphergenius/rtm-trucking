@@ -30,25 +30,25 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav align-items-end ms-auto gap-4 text-uppercase">
                 <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Fleet</a>
+                    <a class="nav-link" href="#fleet">Fleet</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">How It Works</a>
+                    <a class="nav-link" href="#how-it-works">How It Works</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
             </div>
@@ -78,7 +78,7 @@
             </div>
         </div>
     </section>
-    <section id="storage-main" class="storage-sec section-spacing">
+    <section id="services" class="storage-sec section-spacing">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -128,7 +128,7 @@
             </div>
         </div>
     </section>
-    <section id="your-job-main" class="your-job-sec">
+    <section id="fleet" class="your-job-sec">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -168,7 +168,7 @@
             </div>
         </div>
     </section>
-    <section id="simple-start-main" class="simple-start-sec text-center section-spacing">
+    <section id="how-it-works" class="simple-start-sec text-center section-spacing">
         <div class="container">
             <div class="sec-heading">
                 <h2 class="section-head bottom-border">Simple, Start to Finish</h2>
@@ -199,7 +199,7 @@
             <a href="#" class="web-button dark-button text-uppercase">Get A Quote</a>
         </div>
     </section>
-    <section id="built-main" class="built-sec section-spacing">
+    <section id="about" class="built-sec section-spacing">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -214,7 +214,7 @@
             </div>
         </div>
     </section>
-    <section id="customer-main" class="customer-sec section-spacing">
+    <section id="testimonials" class="customer-sec section-spacing">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -356,7 +356,7 @@
             </div>
         </div>
     </section>
-    <section id="contact-main" class="contact-sec section-spacing">
+    <section id="contact" class="contact-sec section-spacing">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
