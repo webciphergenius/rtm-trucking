@@ -455,17 +455,15 @@
                         <!-- Contact Info Section -->
                         <div class="row mt-4 contact-info">
                             <div class="col-md-4 d-flex align-items-start gap-2">
-                                <img src="{{ asset('images/map-icon.png') }}" alt="location-icon">
                                 <div>
                                     <h5 class="fw-bold mb-1">Address</h5>
-                                    <p class="mb-0">319 Richard Mine Road<br>Wharton, NJ 07885</p>
+                                    <p class="mb-0"><img src="https://i.ibb.co/Pvt9b8wz/map-icon-1.png"> 319 Richard Mine Road<br>Wharton, NJ 07885</p>
                                 </div>
                             </div>
                             <div class="col-md-4 d-flex align-items-start gap-2">
-                                <img src="{{ asset('images/contact-icon.png') }}" alt="phone-icon">
                                 <div>
                                     <h5 class="fw-bold mb-1">Numbers</h5>
-                                    <p class="mb-0">Phone- 973-442-1577<br>Fax- 973-442-1477</p>
+                                    <p class="mb-0"><img src="https://i.ibb.co/mn8Ds3m/call-icon.png"> 973-442-1577<br> <img src="https://i.ibb.co/hJK9tYZ4/phone-icon.png"> 973-442-1477</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -491,6 +489,7 @@
         <p>© 2026 RJM TRUCKING. All rights reserved <br>Site design / development by - <a href="https://contemporarymediagrp.com" target="_blank">Contemporary Media Group, LLC</a></p>
     </div>
 </footer>
+<button id="backToTop" title="Back to top"></button>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     @vite(['resources/js/app.js'])
 
@@ -512,6 +511,17 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   });
+});
+const backToTop = document.getElementById("backToTop");
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+    backToTop.classList.add("show");
+    } else {
+    backToTop.classList.remove("show");
+    }
+});
+backToTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
 });
 </script>
 </body>
