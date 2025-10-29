@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>RTM Trucking</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     @vite(['resources/css/app.css'])
 </head>
 <body>
@@ -493,13 +493,13 @@
     </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     @vite(['resources/js/app.js'])
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  // ✅ Smooth Scroll for anchor links
-  const headerOffset = 120; // adjust header height if needed
+  // ✅ Smooth Scroll
+  const headerOffset = 120;
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
       e.preventDefault();
@@ -516,25 +516,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ✅ Swiper slider initialization
+  // ✅ Swiper Initialization
   if (typeof Swiper !== 'undefined') {
     new Swiper(".mySwiper", {
-      slidesPerView: 1,
+      slidesPerView: 1, // default (mobile)
       spaceBetween: 20,
       loop: true,
+      grabCursor: true,
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
       },
-      grabCursor: true,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
       breakpoints: {
-        768: { slidesPerView: 2 },
-        992: { slidesPerView: 3 },
-        1200: { slidesPerView: 4 },
+        576: { slidesPerView: 1 },  // mobile
+        768: { slidesPerView: 2 },  // tablet
+        992: { slidesPerView: 3 },  // small desktop
+        1200: { slidesPerView: 4 }, // large desktop (4 columns)
       },
     });
   } else {
@@ -542,7 +543,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 </script>
-
-
 </body>
 </html>
