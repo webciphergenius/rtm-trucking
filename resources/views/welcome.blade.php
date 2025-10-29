@@ -297,8 +297,8 @@
                 </div>
 
                 <!-- Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <!-- <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div> -->
             </div>
         </div>
     </section>
@@ -520,7 +520,6 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  // ✅ Smooth Scroll
   const headerOffset = 120;
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
@@ -539,26 +538,22 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 const swiper = new Swiper(".swiper", {
-  // Optional parameters
+  centeredSlides: true,
   loop: true,
   centeredSlides: true,
-  // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev"
   },
   breakpoints: {
-    // when window width is >= 320px
     768: {
       slidesPerView: 1,
       spaceBetween: 20
     },
-    // when window width is >= 480px
     1024: {
       slidesPerView: 3,
       spaceBetween: 30
     },
-    // when window width is >= 640px
     1280: {
       slidesPerView: 4,
       spaceBetween: 30
