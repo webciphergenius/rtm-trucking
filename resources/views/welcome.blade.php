@@ -393,7 +393,14 @@
                                 </div>
                             </div>
                             <div class="col-md-4 d-flex align-items-start gap-2">
-                                
+                                <ul class="inline-social">
+                                    <li><a href="#"></a><img src="{{ asset('images/facebook-icon.png') }}" alt="Facebook"></li>
+                                    <li><a href="#"></a><img src="{{ asset('images/youtube-icon.png') }}" alt="YouTube"></li>
+                                    <li><a href="#"></a><img src="{{ asset('images/instagram-icon.png') }}" alt="Instagram"></li>
+                                    <li><a href="#"></a><img src="{{ asset('images/tiktok-icon.png') }}" alt="TikTok"></li>
+                                    <li><a href="#"></a><img src="{{ asset('images/linkedin-icon.png') }}" alt="LinkedIn"></li>
+                                    <li><a href="#"></a><img src="{{ asset('images/twitter-icon.png') }}" alt="Twitter"></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
