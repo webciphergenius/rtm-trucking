@@ -386,10 +386,11 @@ section#testimonials .row {
     gap: 20px;
 }
 .swiper-slide-block {
-    background: #ffffff;
+    background: #fff;
     padding: 20px;
     border-radius: 12px;
-    height: 280px;
+    height: 250px;
+    flex-basis: 25%;
 }
 .testimonial-head {
     display: flex;
@@ -547,5 +548,8 @@ h1 {
 }
 .start-row {
     margin: 40px 0 20px;
+}
+.swiper-wrappermain {
+    flex-direction: column;
 }
 }

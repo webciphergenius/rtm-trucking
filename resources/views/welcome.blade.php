@@ -238,7 +238,7 @@
                             <p>“RTM Trucking has been our go-to for local deliveries for years. They’re always on time, careful with every load, and incredibly easy to work with.”</p>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide-block">
                         <div class="testimonial">
                             <div class="testimonial-head">
                                 <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
@@ -249,7 +249,7 @@
                             <p>“We've used RTM for multiple construction projects. Their team is dependable, and their storage containers are spotless and secure. Highly recommend.”</p>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide-block">
                         <div class="testimonial">
                             <div class="testimonial-head">
                                 <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
@@ -260,7 +260,7 @@
                             <p>“Professional, efficient, and reliable — that's RTM in a nutshell. They make logistics feel effortless.”</p>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide-block">
                         <div class="testimonial">
                             <div class="testimonial-head">
                                 <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
@@ -269,28 +269,6 @@
                                 </h6>
                             </div>
                             <p>“The temperature-controlled containers were a lifesaver for our equipment. RTM handled everything from delivery to pickup without a hitch.”</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <div class="testimonial-head">
-                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
-                                <h6>Sarah Mitchell
-                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block;">
-                                </h6>
-                            </div>
-                            <p>“We've used RTM for multiple construction projects. Their team is dependable, and their storage containers are spotless and secure. Highly recommend.”</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <div class="testimonial-head">
-                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
-                                <h6>Carlos Rivera
-                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block;">
-                                </h6>
-                            </div>
-                            <p>“Professional, efficient, and reliable — that's RTM in a nutshell. They make logistics feel effortless.”</p>
                         </div>
                     </div>
                 </div>
