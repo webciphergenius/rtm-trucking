@@ -516,31 +516,33 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ✅ Swiper Initialization
-  if (typeof Swiper !== 'undefined') {
-    new Swiper(".mySwiper", {
-      slidesPerView: 1, // default (mobile)
-      spaceBetween: 20,
-      loop: true,
-      grabCursor: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      breakpoints: {
-        576: { slidesPerView: 1 },  // mobile
-        768: { slidesPerView: 2 },  // tablet
-        992: { slidesPerView: 3 },  // small desktop
-        1200: { slidesPerView: 4 }, // large desktop (4 columns)
-      },
-    });
-  } else {
-    console.warn("⚠️ Swiper not loaded — include Swiper JS before this script.");
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  loop: true,
+  centeredSlides: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    1280: {
+      slidesPerView: 4,
+      spaceBetween: 30
+    }
   }
+});
 });
 </script>
 </body>
