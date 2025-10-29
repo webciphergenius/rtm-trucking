@@ -231,11 +231,33 @@
                         <div class="testimonial">
                             <div class="testimonial-head">
                                 <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
-                                <h6>Bob Graham
-                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block; margin-top: -5px;">
+                                <h6>Liz Brown
+                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block;">
                                 </h6>
                             </div>
-                            <p>“The temperature-controlled containers were a lifesaver for our equipment. RTM handled everything from delivery to pickup without a hitch.”</p>
+                            <p>“RTM Trucking has been our go-to for local deliveries for years. They’re always on time, careful with every load, and incredibly easy to work with.”</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="testimonial-head">
+                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
+                                <h6>Sarah Mitchell
+                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block;">
+                                </h6>
+                            </div>
+                            <p>“We've used RTM for multiple construction projects. Their team is dependable, and their storage containers are spotless and secure. Highly recommend.”</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <div class="testimonial-head">
+                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
+                                <h6>Carlos Rivera
+                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block;">
+                                </h6>
+                            </div>
+                            <p>“Professional, efficient, and reliable — that's RTM in a nutshell. They make logistics feel effortless.”</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -243,29 +265,7 @@
                             <div class="testimonial-head">
                                 <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
                                 <h6>Bob Graham
-                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block; margin-top: -5px;">
-                                </h6>
-                            </div>
-                            <p>“The temperature-controlled containers were a lifesaver for our equipment. RTM handled everything from delivery to pickup without a hitch.”</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <div class="testimonial-head">
-                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
-                                <h6>Bob Graham
-                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block; margin-top: -5px;">
-                                </h6>
-                            </div>
-                            <p>“The temperature-controlled containers were a lifesaver for our equipment. RTM handled everything from delivery to pickup without a hitch.”</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testimonial">
-                            <div class="testimonial-head">
-                                <img src="https://i.ibb.co/4wvQ650C/quote-icon.png" alt="quote-icon">
-                                <h6>Bob Graham
-                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block; margin-top: -5px;">
+                                    <img src="https://i.ibb.co/3YW94Njt/start-icons.png" alt="star-rating-cion" style="display: block;">
                                 </h6>
                             </div>
                             <p>“The temperature-controlled containers were a lifesaver for our equipment. RTM handled everything from delivery to pickup without a hitch.”</p>
@@ -417,14 +417,24 @@
                                     @enderror
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="container_need" placeholder="Container Need *" class="form-control @error('container_need') is-invalid @enderror" value="{{ old('container_need') }}" required>
+                                    <select name="container_need" class="form-control @error('container_need') is-invalid @enderror" required>
+                                        <option value="" disabled selected>Type of Vehicle *</option>
+                                        <option value="Trucks">Trucks</option>
+                                        <option value="Trailers">Trailers</option>
+                                        <option value="Vans">Vans</option>
+                                    </select>
                                     @error('container_need')
                                         <div class="invalid-feedback">{{ $message }}</div>
                                     @enderror
                                 </div>
 
                                 <div class="col-md-6">
-                                    <input type="text" name="duration" placeholder="Duration *" class="form-control @error('duration') is-invalid @enderror" value="{{ old('duration') }}" required>
+                                    <select name="duration" class="form-control @error('duration') is-invalid @enderror" required>
+                                        <option value="" disabled selected>Duration *</option>
+                                        <option value="Hours">Hours</option>
+                                        <option value="Days">Days</option>
+                                        <option value="Weeks">Weeks</option>
+                                    </select>
                                     @error('duration')
                                         <div class="invalid-feedback">{{ $message }}</div>
                                     @enderror
@@ -458,7 +468,7 @@
                                     <p class="mb-0">Phone- 973-442-1577<br>Fax- 973-442-1477</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 d-flex align-items-start gap-2">
+                            <div class="col-md-4">
                                 <ul class="inline-social">
                                     <li><a href="#"></a><img src="https://i.ibb.co/vCVG8rQ3/fb-icon.png" alt="Facebook"></li>
                                     <li><a href="#"></a><img src="https://i.ibb.co/MksHp8VQ/youtube-icon.png" alt="YouTube"></li>
