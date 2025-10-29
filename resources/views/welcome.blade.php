@@ -13,6 +13,7 @@
     <div class="container top-contiainer">
         <div class="d-flex top-header">
             <ul class="list-group list-group-horizontal ms-auto list-unstyled gap-2">
+                <li class="head-buttons"><a class="nav-link web-button sp-bordered-button text-uppercase" href="#">DOT #00000 |  MT #0000</a></li>
                 <li class="head-buttons"><a class="nav-link web-button blue-button text-uppercase" href="#">CFR Direct</a></li>
                 <li class="head-buttons"><a class="nav-link web-button yellow-button text-uppercase" href="#">Go FreightMate</a></li>
             </ul>
@@ -27,7 +28,7 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav align-items-end ms-auto gap-2 text-uppercase">
+            <ul class="navbar-nav align-items-end ms-auto gap-4 text-uppercase">
                 <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
                 </li>
@@ -56,60 +57,24 @@
 </header>
 
 <div class="main-wrapper">
-    <section id="hero-main" class="hero-section">
-        <div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <section id="hero-main" class="hero-section position-relative overflow-hidden">
+        <!-- Background Video -->
+        <video autoplay muted loop playsinline class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" id="heroVideo">
+            <source src="{{ asset('videos/hero-bg.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <!-- Overlay (optional for readability) -->
+        <div class="position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0, 0, 0, 0.4);"></div>
+
+        <!-- Hero Content -->
+        <div class="container position-relative z-3 text-start text-white d-flex flex-column justify-content-center" style="min-height: 100vh;">
+            <h1>Local Delivery. On-Site Storage. Since 2005.</h1>
+            <p>Dependable storage containers for small items — with the convenience of local delivery and the protection of temperature control.</p>
+            <div class="inline-web-buttons">
+            <a href="#" class="web-button dark-button text-uppercase">Get A Quote</a>
+            <a href="#" class="web-button light-button text-uppercase ms-2">Call Now</a>
             </div>
-
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{ asset('images/hero-banner.png') }}" class="d-block w-100" alt="hero-image">
-                    <div class="carousel-caption text-start d-none d-md-block">
-                        <h1>Local Delivery. On-Site Storage. Since 2005.</h1>
-                        <p>Dependable storage containers for small items — with the convenience of local delivery and the protection of temperature control.</p>
-                        <div class="inline-web-buttons">
-                            <a href="#" class="web-button dark-button text-uppercase">Get A Quote</a>
-                            <a href="#" class="web-button light-button text-uppercase ms-2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('images/hero-banner.png') }}" class="d-block w-100" alt="hero-image">
-                    <div class="carousel-caption text-start d-none d-md-block">
-                        <h1>Local Delivery. On-Site Storage. Since 2005.</h1>
-                        <p>Dependable storage containers for small items — with the convenience of local delivery and the protection of temperature control.</p>
-                        <div class="inline-web-buttons">
-                            <a href="#" class="web-button dark-button text-uppercase">Get A Quote</a>
-                            <a href="#" class="web-button light-button text-uppercase ms-2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('images/hero-banner.png') }}" class="d-block w-100" alt="hero-image">
-                    <div class="carousel-caption text-start d-none d-md-block">
-                        <h1>Local Delivery. On-Site Storage. Since 2005.</h1>
-                        <p>Dependable storage containers for small items — with the convenience of local delivery and the protection of temperature control.</p>
-                        <div class="inline-web-buttons">
-                            <a href="#" class="web-button dark-button text-uppercase">Get A Quote</a>
-                            <a href="#" class="web-button light-button text-uppercase ms-2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
         </div>
     </section>
     <section id="storage-main" class="storage-sec section-spacing">
@@ -172,7 +137,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="your-job-text">
-                        <h2 class="section-head top-border">The Fleet That <br>Fits Your Job</h2>
+                        <h2 class="section-head top-border">The Fleet That Fits Your Job</h2>
                         <p>From compact runs to heavier hauls, our fleet was built for versatility. Each vehicle is maintained to exacting standards — clean, efficient, and equipped to deliver your storage container or trailer safely and on time.</p>
                         <ul class="your-job-list list-unstyled">
                             <li class="d-flex align-items-start gap-2">
@@ -413,19 +378,22 @@
 
                         <!-- Contact Info Section -->
                         <div class="row mt-4 contact-info">
-                            <div class="col-md-6 d-flex align-items-start gap-2">
+                            <div class="col-md-4 d-flex align-items-start gap-2">
                                 <img src="{{ asset('images/map-icon.png') }}" alt="location-icon">
                                 <div>
                                     <h5 class="fw-bold mb-1">Address</h5>
                                     <p class="mb-0">319 Richard Mine Road<br>Wharton, NJ 07885</p>
                                 </div>
                             </div>
-                            <div class="col-md-6 d-flex align-items-start gap-2">
+                            <div class="col-md-4 d-flex align-items-start gap-2">
                                 <img src="{{ asset('images/contact-icon.png') }}" alt="phone-icon">
                                 <div>
                                     <h5 class="fw-bold mb-1">Numbers</h5>
                                     <p class="mb-0">Phone- 973-442-1577<br>Fax- 973-442-1477</p>
                                 </div>
+                            </div>
+                            <div class="col-md-4 d-flex align-items-start gap-2">
+                                
                             </div>
                         </div>
                     </div>
@@ -436,14 +404,6 @@
 </div>
 
 <footer id="main-footer" class="web-footer text-center">
-    <div class="container">
-        <div class="footer-buttons gap-2 d-flex justify-content-center">
-            <a href="#" class="nav-link web-button dark-button text-uppercase">Get a Quote</a>
-            <a href="#" class="nav-link web-button dark-button text-uppercase">Call Now</a>
-            <a href="#" class="nav-link web-button blue-button text-uppercase">CFR Direct</a>
-            <a href="#" class="nav-link web-button yellow-button text-uppercase ms-2">Go FreightMate</a>
-        </div>
-    </div>
     <div class="bottom-footer">
         <p>© 2026 RJM TRUCKING. All rights reserved <br>Site design / development by - <a href="https://contemporarymediagrp.com" target="_blank">Contemporary Media Group, LLC</a></p>
     </div>

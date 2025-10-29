@@ -27,12 +27,11 @@ h5,
 h6 {
     font-weight: 800;
 }
-h1,
-h2 {
+h1 {
     text-transform: uppercase;
 }
 h2.section-head {
-    font-size: 38px;
+    font-size: 36px;
     position: relative;
 }
 h2.top-border:before {
@@ -77,21 +76,22 @@ h3 {
     border-color: #ffffff;
 }
 .yellow-button {
-    background: url(/images/button-yellow.png) no-repeat;
+    background: #F8A407;
     color: #000000;
     border-color: #ffffff;
-    background-size: cover;
 }
 .blue-button {
-    background: url(/images/button-blue.png) no-repeat;
+    background: #3F56A7;
     color: #000000;
     border-color: #ffffff;
-    background-size: cover;
 }
 .section-spacing {
     padding: 60px 0;
 }
 /* Global Styles EH */
+.storage-row {
+    padding-top: 3rem;
+}
 .carousel-caption {
     position: absolute;
     top: 50%;
@@ -102,6 +102,9 @@ h3 {
     background: rgb(0 0 0 / 38%);
     padding: 20px 30px;
     max-width: 480px;
+}
+ul.your-job-list li.d-flex {
+    margin: 15px 0;
 }
 .carousel-caption h1 {
     text-shadow: 0 2px 2px rgb(0 0 0 / 82%);
@@ -211,7 +214,7 @@ section#built-main {
     background-size: 48% 100%;
     background-position: center right;
     color: #fff;
-    padding-top: 90px;
+    padding: 120px 0 70px;
 }
 div#lightboxCarousel img {
     height: 600px;
@@ -263,7 +266,6 @@ footer#main-footer {
     background: url(/images/footer-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 30px 0 0;
     color: #fff;
 }
 .bottom-footer p {
