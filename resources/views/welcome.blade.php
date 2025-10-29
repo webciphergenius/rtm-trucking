@@ -14,8 +14,8 @@
         <div class="d-flex top-header">
             <ul class="list-group list-group-horizontal ms-auto list-unstyled gap-2">
                 <li class="head-buttons"><a class="nav-link web-button sp-bordered-button text-uppercase" href="#">DOT #00000 |  MT #0000</a></li>
-                <li class="head-buttons"><a class="nav-link web-button blue-button text-uppercase" href="#">CFR Direct</a></li>
-                <li class="head-buttons"><a class="nav-link web-button yellow-button text-uppercase" href="#">Go FreightMate</a></li>
+                <li class="head-buttons"><a class="nav-link web-button blue-button text-uppercase" href="#">CFR Direct <img src="https://i.ibb.co/HL5ct6wW/arrow-button.png"></a></li>
+                <li class="head-buttons"><a class="nav-link web-button yellow-button text-uppercase" href="#">Go FreightMate <img src="https://i.ibb.co/HL5ct6wW/arrow-button.png"></a></li>
             </ul>
         </div>
     </div>
