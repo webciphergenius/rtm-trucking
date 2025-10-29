@@ -428,7 +428,7 @@
                                     @enderror
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="duration" placeholder="Duration *" class="form-control @error('duration') is-invalid @enderror" value="{{ old('duration') }}" required>
+                                    <input type="text" name="duration" placeholder="Duration (Hours, Days, Weeks) *" class="form-control @error('duration') is-invalid @enderror" value="{{ old('duration') }}" required>
                                     @error('duration')
                                         <div class="invalid-feedback">{{ $message }}</div>
                                     @enderror
