@@ -82,7 +82,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2 class="section-head top-border">Storage Containers <span style="color: #088C8A;">+</span> Local Delivery</h2>
+                    <h2 class="section-head top-border">Storage Containers <span style="color: #088C8A;">+</span> <br>Local Delivery</h2>
                 </div>
                 <div class="col-md-6">
                     <p>We don't just drop off a box and drive away — we deliver <b>ready-to-use, secure containers and offer inside temperature-controlled warehouse storage</b> for small items and short-term storage needs. Whether it's overflow inventory, seasonal supplies, or tools for an upcoming job, we make sure your goods stay protected, organized, and accessible right where you need them.</p>
@@ -217,10 +217,10 @@
     <section id="testimonials" class="customer-sec section-spacing">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <h2 class="section-head top-border">Customer Feedback</h2>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <p>“We've used RTM for multiple construction projects. Their team is dependable, and their storage containers are spotless and secure. Highly recommend.”</p>
                 </div>
             </div>
