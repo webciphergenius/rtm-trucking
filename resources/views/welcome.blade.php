@@ -347,7 +347,7 @@
 
     <section id="blogs" class="blogs-sec section-spacing">
         <div class="container">
-            <h2 class="section-headtext-center bottom-border">Our Latest News</h2>
+            <h2 class="section-head text-center bottom-border">Our Latest News</h2>
             <div class="row blog-row">
                 <div class="col-md-4">
                     <div class="blog-card-block">
