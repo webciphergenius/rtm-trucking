@@ -344,37 +344,36 @@
             </div>
         </div>
     </section>
-
     <section id="blogs" class="blogs-sec section-spacing">
         <div class="container">
             <h2 class="section-head text-center bottom-border">Our Latest News</h2>
             <div class="row blog-row">
                 <div class="col-md-4">
                     <div class="blog-card-block">
-                        <img src="{{ asset('images/gallery01.png') }}" alt="" class="blog-f-img">
+                        <img src="https://i.ibb.co/d4LmgfP6/Protected-Organized-Accessible-Your-Storage-Guarantee.png" alt="" class="blog-f-img">
                         <div class="blog-data-block">
-                            <h3>Blog Title 1</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard dummy make a type specimen book.</p>
+                            <h3>Protected, Organized, Accessible: Your Storage Guarantee</h3>
+                            <p>Effective and dependable storage solutions are not only a convenience in the fast-paced world of today; they are essential.</p>
                             <a href="" class="blog-button">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="blog-card-block">
-                        <img src="{{ asset('images/gallery02.png') }}" alt="" class="blog-f-img">
+                        <img src="https://i.ibb.co/qLK1wvPw/The-Right-Truck-for-the-Job-Delivery-Without-Hassle.png" alt="" class="blog-f-img">
                         <div class="blog-data-block">
-                            <h3>Blog Title 2</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard dummy make a type specimen book.</p>
+                            <h3>The Right Truck for the Job: Delivery Without Hassle</h3>
+                            <p>The saying "the right tool for the job" is especially relevant in the complex realm of logistics and transportation. Choosing the right trucking.</p>
                             <a href="" class="blog-button">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="blog-card-block">
-                        <img src="{{ asset('images/gallery03.png') }}" alt="" class="blog-f-img">
+                        <img src="https://i.ibb.co/sJHPJnFd/Delicate-Supplies-Safe-Year-Round-Temp-Control.png" alt="" class="blog-f-img">
                         <div class="blog-data-block">
-                            <h3>Blog Title 3</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard dummy make a type specimen book.</p>
+                            <h3>Delicate Supplies Safe: Year-Round Temp Control</h3>
+                            <p>Transporting temperature-sensitive or "delicate supplies" is one of the most important and difficult tasks in the specialized field of logistics.</p>
                             <a href="" class="blog-button">Read More</a>
                         </div>
                     </div>
@@ -382,7 +381,6 @@
             </div>
         </div>
     </section>
-
     <section id="localcta-main" class="localcta-sec section-spacing">
         <div class="container">
             <div class="row">
