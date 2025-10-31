@@ -446,6 +446,18 @@ ul.inline-social li {
     height: 400px;
     object-fit: cover;
 }
+.blog-row {
+    margin-top: 3rem;
+}
+a.blog-button {
+    text-decoration: none;
+    color: #f8a408;
+}
+.blog-data-block p {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
 @media only screen and (max-width: 768px) {
 .col-md-4:nth-child(2) .start-box:after, .col-md-4:nth-child(2) .start-box:before {
     display: none;
@@ -592,5 +604,8 @@ h1 {
     right: 15px !important;
     width: 40px !important;
     height: 40px !important;
+}
+.blog-card-block {
+    margin-bottom: 20px;
 }
 }

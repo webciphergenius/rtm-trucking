@@ -344,6 +344,45 @@
             </div>
         </div>
     </section>
+
+    <section id="blogs" class="blogs-sec section-spacing">
+        <div class="container">
+            <h2 class="section-headtext-center bottom-border">Our Latest News</h2>
+            <div class="row blog-row">
+                <div class="col-md-4">
+                    <div class="blog-card-block">
+                        <img src="{{ asset('images/gallery01.png') }}" alt="" class="blog-f-img">
+                        <div class="blog-data-block">
+                            <h3>Blog Title 1</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard dummy make a type specimen book.</p>
+                            <a href="" class="blog-button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card-block">
+                        <img src="{{ asset('images/gallery02.png') }}" alt="" class="blog-f-img">
+                        <div class="blog-data-block">
+                            <h3>Blog Title 2</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard dummy make a type specimen book.</p>
+                            <a href="" class="blog-button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card-block">
+                        <img src="{{ asset('images/gallery03.png') }}" alt="" class="blog-f-img">
+                        <div class="blog-data-block">
+                            <h3>Blog Title 3</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard dummy make a type specimen book.</p>
+                            <a href="" class="blog-button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="localcta-main" class="localcta-sec section-spacing">
         <div class="container">
             <div class="row">
