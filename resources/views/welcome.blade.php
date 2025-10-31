@@ -13,7 +13,7 @@
     <div class="container top-contiainer">
         <div class="d-flex top-header">
             <ul class="list-group list-group-horizontal ms-auto list-unstyled gap-2">
-                <li class="head-buttons"><a class="nav-link web-button sp-bordered-button text-uppercase" href="#">DOT#1447200</a></li>
+                <li class="head-buttons"><a class="nav-link web-button sp-bordered-button text-uppercase" href="#">DOT# 1447200</a></li>
                 <li class="head-buttons"><a class="nav-link web-button blue-button text-uppercase" href="https://cfrdirect.com" target="_blank">CFR Direct <img src="https://i.ibb.co/HL5ct6wW/arrow-button.png"></a></li>
                 <li class="head-buttons"><a class="nav-link web-button yellow-button text-uppercase" href="https://gofreightmate.com" target="_blank">Go FreightMate <img src="https://i.ibb.co/HL5ct6wW/arrow-button.png"></a></li>
             </ul>
@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-sm">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="https://i.ibb.co/35Hy4rdC/web-logo.png" alt="rtm-logo" height="50">
+                <img src="https://i.ibb.co/35Hy4rdC/web-logo.png" alt="rtm-logo" height="70">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -73,7 +73,7 @@
                 <p>Dependable storage containers for small items — with the convenience of local delivery and the protection of temperature control.</p>
                 <div class="inline-web-buttons">
                     <a href="#contact" class="web-button dark-button text-uppercase">Get A Quote</a>
-                    <a href="#" class="web-button light-button text-uppercase ms-2">Call Now</a>
+                    <a href="tel:9734421577" class="web-button light-button text-uppercase ms-2">Call Now</a>
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
                     <h2 class="section-head top-border">Storage Containers <span style="color: #088C8A;">+</span> Local Delivery</h2>
                 </div>
                 <div class="col-md-6">
-                    <p>We don't just drop off a box and drive away — we deliver <b>ready-to-use, secure, and temperature-controlled containers</b> designed for small items and short-term storage needs. Whether it's overflow inventory, seasonal supplies, or tools for an upcoming job, we make sure your goods stay protected, organized, and accessible right where you need them.</p>
+                    <p>We don't just drop off a box and drive away — we deliver <b>ready-to-use, secure containers and offer inside temperature-controlled warehouse storage</b> for small items and short-term storage needs. Whether it's overflow inventory, seasonal supplies, or tools for an upcoming job, we make sure your goods stay protected, organized, and accessible right where you need them.</p>
                 </div>
             </div>
             <div class="row storage-row">
@@ -457,7 +457,7 @@
                             <div class="col-md-4 d-flex align-items-start gap-2">
                                 <div>
                                     <h5 class="fw-bold mb-1">Numbers</h5>
-                                    <p class="mb-0"><img src="https://i.ibb.co/mn8Ds3m/call-icon.png"> 973-442-1577</p>
+                                    <p class="mb-0"><img src="https://i.ibb.co/mn8Ds3m/call-icon.png"> <a href="tel:9734421577">973-442-1577</a></p>
                                     <p class="mb-0"><img src="https://i.ibb.co/hJK9tYZ4/phone-icon.png"> 973-442-1477</p>
                                 </div>
                             </div>
@@ -481,7 +481,7 @@
 
 <footer id="main-footer" class="web-footer text-center">
     <div class="bottom-footer">
-        <p>© 2026 RJM TRUCKING. All rights reserved <br>Site design / development by - <a href="https://contemporarymediagrp.com" target="_blank">Contemporary Media Group, LLC</a></p>
+        <p>© 2026 RTM TRUCKING. All rights reserved <br>Site design / development by - <a href="https://contemporarymediagrp.com" target="_blank">Contemporary Media Group, LLC</a></p>
     </div>
 </footer>
 <button id="backToTop" title="Back to top"></button>

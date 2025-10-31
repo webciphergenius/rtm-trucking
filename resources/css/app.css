@@ -311,6 +311,10 @@ footer#main-footer {
 .bottom-footer p {
     margin: 0;
 }
+.contact-info p a {
+    color: #000;
+    text-decoration: none;
+}
 .bottom-footer {
     padding: 20px 0;
     background: rgb(0 0 0 / 28%);
