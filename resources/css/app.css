@@ -468,6 +468,11 @@ img.blog-f-img {
     object-fit: cover;
     margin-bottom: 20px;
 }
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+h1 {
+    font-size: 38px;
+}
+}
 @media only screen and (max-width: 768px) {
 .col-md-4:nth-child(2) .start-box:after, .col-md-4:nth-child(2) .start-box:before {
     display: none;
